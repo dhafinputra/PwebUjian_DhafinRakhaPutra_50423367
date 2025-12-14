@@ -1,0 +1,118 @@
+/* Palet Warna:
+   Primer: #6B46C1 (Ungu)
+   Aksen/Latar Belakang: #F7FAFC (Putih keabu-abuan)
+   Input/Card: #FFFFFF (Putih)
+*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #F7FAFC; /* Latar belakang yang lebih cerah */
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 600px; /* Lebar sedikit dikurangi agar lebih fokus */
+    background: #FFFFFF;
+    margin: auto;
+    padding: 30px;
+    border-radius: 12px; /* Sudut lebih membulat */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Bayangan yang elegan */
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #2D3748; /* Judul berwarna gelap */
+    margin-bottom: 25px;
+    border-bottom: 2px solid #E2E8F0;
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: #4A5568;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Gaya Form */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Jarak antar elemen form */
+}
+
+textarea, input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #CBD5E0; /* Border abu-abu terang */
+    border-radius: 8px;
+    box-sizing: border-box; /* Memastikan padding tidak menambah lebar */
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+textarea:focus, input:focus {
+    border-color: #6B46C1; /* Border menjadi ungu saat fokus */
+    box-shadow: 0 0 0 3px rgba(107, 70, 193, 0.2); /* Efek fokus */
+    outline: none;
+}
+
+textarea {
+    resize: vertical; /* Hanya izinkan resize vertikal */
+    min-height: 100px;
+}
+
+/* Gaya Tombol */
+button {
+    background: #6B46C1; /* Warna ungu sebagai warna primer */
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    margin-top: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #553C9A; /* Ungu sedikit lebih gelap saat hover */
+    transform: translateY(-1px); /* Efek angkat ringan */
+}
+
+button:active {
+    transform: translateY(1px); /* Efek tekan */
+}
+
+/* Gaya Daftar Notes */
+.note {
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); /* Bayangan ringan untuk setiap note */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.note:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.note h3 { /* Jika Anda menggunakan h3 atau sejenisnya untuk Author di app.js */
+    color: #6B46C1;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+.note p { /* Jika Anda menggunakan p untuk Isi/Konten di app.js */
+    color: #4A5568;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
