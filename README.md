@@ -20,4 +20,4 @@ ujian/ ├── api/ │ ├── create.php │ ├── read.php │ ├─
 Pindahkan folder ujian ke dalam folder htdocs (XAMPP).
 Jalankan Apache dan MySQL.
 Import database ke phpMyAdmin.
-Buka browser dan akses:
+Buka browser dan akses: http://localhost/ujian/public/index.html
