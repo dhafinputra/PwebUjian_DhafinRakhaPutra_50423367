@@ -1,8 +1,8 @@
 # PwebUjian_DhafinRakhaPutra_50423367
 Ujian Praktikum PWEB - quotes app
 
-Nama : Dhafin Rakha Putra
-NIM : 50423367
+Nama  : Dhafin Rakha Putra  
+NIM   : 50423367  
 Kelas : 3IA13
 
 Aplikasi web sederhana berbasis CRUD (Create, Read, Update, Delete) yang digunakan untuk mengelola data quotes menggunakan PHP dan JavaScript.
